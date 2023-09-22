@@ -1,0 +1,466 @@
+/*
+
+Theme:	Modest	Responsive	HTML	Template
+Author:	XXX
+Live URL: YYY
+
+Primary Color: #23b7a4
+Secondary Color:	#c8cdd0
+
+Font Style
+Title:	Quattrocento Sans
+Paragraph: Open Sans
+*/
+
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+/*Global	CSS*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+h1,	h2,	h3,	h4,	h5,	h6{
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin: 0;
+}
+p{
+	font-family: 'Open Sans', sans-serif;	
+}
+a{
+	text-decoration: none;
+	color:	#23b7a4;
+}
+ul li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.btn{
+	list-style: none;
+}
+.padding-0{
+	padding: 0;
+}
+.section-title{
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 38px;
+	padding-left: 25px;
+
+}
+.section-title::before{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 8px;
+	background: #c8cdd0;
+	width: 8px;
+	height: 60%;
+
+}
+/*Top Header Section*/
+.top-header{
+	padding: 10px 0 0;
+	align-items: center;
+	display: flex;
+
+}
+.top-header-phone{
+	display: flex;
+	justify-content: left;
+	list-style: none;
+	padding: 5px 0 0;
+	margin: 0;
+}
+.top-header-phone li{
+	padding-right: 10px;
+}
+.top-header-phone .fa-solid{
+	border: 5px solid transparent;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #2092fc;
+}
+.top-header-phone li p{
+	padding-right: 30px;
+
+}
+
+
+
+.social-text{
+	display: flex;
+    justify-content: end;
+    padding: 5px 0 0;
+   
+	
+}
+.social-item ul{
+	padding-left: 0;
+}
+.social-item ul li{
+	display: inline;
+    border: 2px solid transparent;
+    padding: 3px 7px;
+    background-color: #4267b2;
+}
+	
+.social-item ul li .fa-brands{
+	color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.social-text h4{
+	font-size: 20px;
+    font-weight: 700;
+    padding-right: 30px;
+}
+/*.social-item ul li:hover{
+	background-color: #f69165;
+}*/
+
+
+
+/*	Header Section*/
+header{
+	background: #003060;
+
+}
+header	.navbar{
+padding: 5px	0;
+}
+.navbar	.nav-item{
+	margin: 0	5px;
+}
+.nav-link{
+	padding: 2px;
+	text-transform: uppercase;
+	border: 2px	solid	transparent;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;	
+}
+.nav-link:focus,
+.nav-link:hover{
+	border: 2px	solid	#a4aead;
+	border-radius: 3px;
+	color:	#a4aead ;
+}
+.navbar-nav	.nav-link.active,
+.navbar-nav	.nav-link.show{
+	border: 2px	solid	#23b7a4;
+	border-radius: 3px;
+	color: #23b7a4;
+}
+
+.btn{
+	color: #fff;
+    background-color: #09d98a;
+     border: 2px	solid	transparent;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #2092fc;
+    border: 2px	solid	#23b7a4;
+}
+
+/*Banner Section*/
+.banner-section{
+	background-image: url(../images/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*position: absolute;*/
+}
+
+.banner-section h1{
+	color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.banner-section p{
+	color: #fff;
+    font-size: 17px;
+    padding: 15px 81px 20px 0;
+}
+
+.height{
+	min-height: 85vh;
+	align-items: center;
+	position: relative;
+}
+
+
+
+/*Pricing Section*/
+
+/*Pricing Section*/
+.pricing-section{
+	position: relative;
+	padding: 6% 0% 20%;
+	margin-bottom: 60px;
+    
+
+}
+.pricing-plan{
+	text-align: center;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    margin: 0;
+    padding-bottom: 30px;
+
+
+}
+.pricing-plan ul{
+	padding: 0;
+	margin: 0;
+	
+
+}
+.price-info1{
+position: absolute;
+    width: 91%;
+    top: -23%;
+    left: 55%;
+    transform: translateX(-50%);
+
+
+}
+.pricing-plan h2{
+	background-color: #08dd83;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 0;
+}
+.pricing-plan p{
+	color: #c6c6c6;
+    text-align: center;
+    padding: 15px 0;
+}
+.pricing-plan h1{
+	font-size: 55px;
+    font-weight: 700;
+    color: #023f7c;
+    text-align: center;
+
+}
+.pricing-plan h1 span{
+	font-size: 16px;
+    display: inline;
+    color: #023f7c;
+}
+.pricing-text1 ul{
+
+   text-align: center;
+    font-weight: 700;
+}
+.pricing-text1 ul li img{
+	padding-right: 5px;
+
+}
+.pricing-text2 ul{
+
+   text-align: center;
+    font-weight: 700;
+}
+.pricing-text2 ul li img{
+	padding-right: 5px;
+
+}
+.pricing-text2 ul{
+	color: #999999;
+    line-height: 1.5;
+}
+}
+.pricing-plan ul li a{
+
+}
+.price-info{
+	padding: 30px 0 20px;
+    text-decoration: underline;
+    color: #89a5c2;
+}
+
+
+
+/*Dolorem Section*/
+
+.dolorem-section{
+	padding: 100px 0 50px;
+    border-bottom: 2px solid #efefef;
+
+}
+.dolorem-section h2{
+	font-size: 35px;
+    padding: 0 164px 20px 0;
+    font-weight: 700;
+}
+
+.dolorem-section p{
+    text-align: justify;
+    font-size: 15px;
+}
+.dolorem-section p img{
+	    padding-right: 10px;
+
+}
+
+.dolorem-section ul li{
+	list-style-position: outside;
+    list-style-image: url(../images/l11.png);
+    padding: 5px 0;
+    font-size: 14px;
+
+}
+.dolorem-section ul{
+	     padding: 0px 0 0 15px;
+	
+}
+.dolorem-text .btn{
+	list-style: none;
+}
+
+/*HBO Section*/
+.hbo-section{
+	padding: 50px 0;
+}
+.comments-customers{
+
+}
+.comments-customers img{
+	
+}
+.comments-customers p{
+	padding-top: 10px;
+    color: #b4b4b4;
+    line-height: .5;
+
+}
+.comments-customers h4{
+	    font-size: 20px;
+    font-weight: 700;
+}
+.comments-text{
+	position: relative;
+}
+.comments-text img{
+	 position: absolute;
+    top: -19px;
+    left: -16px;
+}
+.comments-text h4{
+	position: absolute;
+    font-size: 20px;
+    left: 4px;
+    font-weight: 400;
+}
+
+
+/*Dolorem Section2*/
+
+.dolorem-section{
+	padding: 50px 0;
+	border-bottom: 2px solid #efefef;
+}
+.dolorem-section2{
+	background-color: #003060;
+	color: #fff;
+}
+.dolorem-section h2{
+	font-size: 35px;
+    padding: 0 164px 20px 0;
+    font-weight: 700;
+}
+
+.dolorem-section p{
+    text-align: justify;
+    font-size: 15px;
+}
+.dolorem-section p img{
+	    padding-right: 10px;
+
+}
+
+.dolorem-section ul li{
+	list-style-position: outside;
+    list-style-image: url(../images/l11.png);
+    padding: 5px 0;
+    font-size: 14px;
+
+}
+.dolorem-section ul{
+	     padding: 0px 0 0 15px;
+	
+}
+.dolorem-text .btn{
+	list-style: none;
+}
+
+/*Contact Section*/
+
+.contact-form{
+	padding-top: 60px;
+}
+.contact-form p{
+	    color: #aeaeae;
+    font-size: 15px;
+    line-height: 0;
+}
+.contact-form h4{
+	font-size: 27px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.contact-section{
+	padding-bottom: 0px;
+}
+.map iframe{
+	display: block;
+}
+
+
+/*Subscribe Section*/
+
+.subscribe-section{
+	padding: 50px 0;
+	background-color: #f9fcff;
+}
+.subscribe-section h3{
+	    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+/*footer section*/
+
+.footer-section{
+	background-color: #f9fcff;
+    color: #000;
+    padding-bottom: 50px;
+}
+.nav-link1{
+	padding: 2px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+
+}
+.schedule-call p{
+	text-align: right;
+    color: #a8a8a9;
+}
+
+
+
